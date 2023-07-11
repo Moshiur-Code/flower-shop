@@ -21,6 +21,10 @@ body {
     justify-content: space-between;
 }
 
+.banner-containt{
+    max-width: 500px;
+}
+
 .banner-title {
     color: #272727;
     font-size: 80px;
@@ -52,4 +56,74 @@ body {
 .banner-pic {
     width: 635px;
     height: 800px;
+}
+
+
+/* Hot deal container style */
+.hot-deal-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px;
+    margin: 200px 0px;
+}
+
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.hot-deal-span{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-paragraph{
+    display: flex;
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.hot-deal-button{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.hot-deal-pic{
+    width: 318px;
+    height: 420px;
+    /* padding: 100px 400px 100px 1100px; */
+
+}
+
+/* Instgram */
+.instagram{
+    text-align: center;
+ 
+}
+.insta-title{
+color: #272727;
+/* text-align: center; */
+font-size: 40px;
+font-weight: 800;
+}
+
+.insta-paragraph{
+    /* text-align: center;
+    display: flex; */
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
