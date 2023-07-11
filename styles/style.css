@@ -55,6 +55,37 @@ body {
     height: 800px;
 }
 
+/* Feature section style */
+.feature{
+    text-align: center;
+}
+
+.f-pictures{
+    display: flex;
+    gap: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.f-para{
+margin-top: 180px;
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.f-description{
+display: flex;
+flex-direction: column;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+
 
 /* Hot deal container style */
 .hot-deal-container{
